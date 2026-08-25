@@ -1,6 +1,6 @@
 # smolagents-party-planner-agents
 
-A collection of [smolagents](https://github.com/huggingface/smolagents) examples built while working through Hugging Face's [Agents Course](https://huggingface.co/learn/agents-course). The running theme: Alfred, the butler of Wayne Manor, uses a growing toolkit of AI agents to plan a superhero-themed party — searching the web, generating images, mapping logistics, checking guests' identities, and more.
+A collection of [smolagents](https://github.com/huggingface/smolagents) examples built while working through Hugging Face's [Agents Course](https://huggingface.co/learn/agents-course). The running theme: Alfred, the butler of Wayne Manor, uses a growing toolkit of AI agents to plan a superhero-themed party – searching the web, generating images, mapping logistics, checking guests' identities, and more.
 
 ## Scripts
 
@@ -14,11 +14,11 @@ A collection of [smolagents](https://github.com/huggingface/smolagents) examples
 | `borrowed-agent-activity-log.py` | Loads a pre-built agent from the Hugging Face Hub and wires up Langfuse to trace every step it takes. |
 | `verify-image.py` | Downloads reference photos and asks GPT-4o to describe the costume/makeup shown, to help verify a guest's claimed identity. |
 
-> Filenames above match what was built during development — rename to match your actual files if they differ.
+> Filenames above match what was built during development – rename to match your actual files if they differ.
 
 ## Setup
 
-Each script lists its own dependencies in a comment block at the top of the file — install those before running a given script. In general, across the whole repo you'll need:
+Each script lists its own dependencies in a comment block at the top of the file – install those before running a given script. In general, across the whole repo you'll need:
 
 ```powershell
 pip install smolagents huggingface_hub python-dotenv
@@ -42,7 +42,7 @@ LANGFUSE_HOST=your_langfuse_host
 ### Other prerequisites
 
 - `wonder_woman_browser_agent.py` needs **Google Chrome** installed on your machine.
-- Hugging Face Inference Providers change which models they serve over time — if you hit a `model_not_supported` error, check the model's page on huggingface.co for its current provider(s) and update the `provider=` argument accordingly.
+- Hugging Face Inference Providers change which models they serve over time – if you hit a `model_not_supported` error, check the model's page on huggingface.co for its current provider(s) and update the `provider=` argument accordingly.
 
 ## Running a script
 
@@ -52,4 +52,4 @@ python path/to/script.py
 
 ## Acknowledgments
 
-Built while following Hugging Face's [Agents Course](https://huggingface.co/learn/agents-course) (smolagents unit) — several scripts adapt examples and the Alfred/Wayne Manor scenario from that material.
+Built while following Hugging Face's [Agents Course](https://huggingface.co/learn/agents-course) (smolagents unit) – several scripts adapt examples and the Alfred/Wayne Manor scenario from that material.
